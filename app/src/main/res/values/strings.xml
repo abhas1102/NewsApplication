@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApplication</string>
+    <string name="category_business">Business</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_technology">Technology</string>
+    <string name="category_world">World</string>
+    <string name="category_fashion">Fashion</string>
+</resources>

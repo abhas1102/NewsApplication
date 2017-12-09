@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:anroid="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/categorisation"
+        android:title="Category">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/world"
+                android:checked="false"
+                android:icon="@drawable/world"
+                android:title="@string/category_world" />
+
+            <item
+                android:id="@+id/sports"
+                android:checked="false"
+                android:icon="@drawable/sports"
+                android:title="@string/category_sports" />
+
+            <item
+                android:id="@+id/business"
+                android:checked="false"
+                android:icon="@drawable/business"
+                android:title="@string/category_business" />
+
+            <item
+                android:id="@+id/technology"
+                android:checked="false"
+                android:icon="@drawable/technology"
+                android:title="@string/category_technology" />
+
+                <item
+                    android:id="@+id/fashion"
+                    android:checked="false"
+                    android:icon="@drawable/fashion"
+                    android:title="@string/category_fashion" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
