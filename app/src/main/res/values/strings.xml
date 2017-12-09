@@ -5,4 +5,6 @@
     <string name="category_technology">Technology</string>
     <string name="category_world">World</string>
     <string name="category_fashion">Fashion</string>
+    <string name="drawerClosed">Navigation View</string>
+    <string name="drawerOpened">Navigation View Closed</string>
 </resources>
