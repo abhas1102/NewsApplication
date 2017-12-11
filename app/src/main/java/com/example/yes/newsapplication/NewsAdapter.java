@@ -5,12 +5,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
 
 /**
- * Created by yes on 12/8/2017.
+ * Created by yes on 12/4/2017.
  */
 
 public class NewsAdapter extends ArrayAdapter<News> {
@@ -32,10 +33,10 @@ public class NewsAdapter extends ArrayAdapter<News> {
 
         News newsCurrent = getItem(position);
 
-        // Find the TextView with view ID bookTitle
+        // Find the TextView with view ID newsTitle
         TextView titleView = (TextView) listItemView.findViewById(R.id.newsHeadline);
         String headline = newsCurrent.getHeadline();
-        // Display the Title of the current book in that TextView
+
         titleView.setText(headline);
 
         TextView authorView = (TextView) listItemView.findViewById(R.id.newsContent);
@@ -49,6 +50,10 @@ public class NewsAdapter extends ArrayAdapter<News> {
         TextView contriView = (TextView) listItemView.findViewById(R.id.newsContributor);
         String contri = newsCurrent.getContributor();
         contriView.setText(contri);
+
+        ImageView imageView = (ImageView) listItemView.findViewById(R.id.newsImage);
+        int image = Integer.parseInt(newsCurrent.getImage());
+        imageView.setImageResource(image);
 
         return listItemView;
     }}

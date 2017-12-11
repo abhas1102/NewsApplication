@@ -22,7 +22,7 @@ import java.util.List;
 import static com.example.yes.newsapplication.MainActivity.LOG_TAG;
 
 /**
- * Created by yes on 12/8/2017.
+ * Created by yes on 12/4/2017.
  */
 public final class NewsQueryData {
     /**

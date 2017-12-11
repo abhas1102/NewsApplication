@@ -1,7 +1,7 @@
 package com.example.yes.newsapplication;
 
 /**
- * Created by yes on 12/8/2017.
+ * Created by yes on 12/3/2017.
  */
 
 public class News {
